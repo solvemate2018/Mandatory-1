@@ -13,12 +13,33 @@
 
 <main>
   <div class="jumbotron">
-    <h1>Fun facts about sequelize:</h1>
-    <p>Welcome to templating using EJS</p>
+    <h1>Sequelize documentation: #Bonus</h1>
+    <br>
+    <h6>What is Sequelize and why is it so helpful?</h6>
+    <p>Sequelize is a Node.js ORM or in other words what you use to connect your app to a DataBase.
+      And it is so helpful for many reasons. Some of them are: 
+    </p>
+    <ul>
+      <li>You can just add it as a dependancy and that's it you have it as part of your app!</li>
+      <li>It has easy to read, easy to understand and easy to write syntax!</li>
+      <li>You can use it for basicaly anything in regards to working with DBs!</li>
+    </ul>
+    <br>
+    <h6>How to use it?</h6>
+    <ol>
+      <li>You need to add Sequelize as dependancy.</li>
+      <li>You need to create a new instance of Sequelize and add the connection information to it:</li>
+      <img src="sequelize.png" width="800" height="400">
+      <li>Next part is to model the tables at the DataBase:</li>
+      <img src="dataModel1.png" width="800" height="400">
+      <p>A model of User which is going to be created as a Table at our DB</p>
+      <br>
+      <img src="dataModel2.png" width="800" height="400">
+    </ol>
+
+    <h5>For more information read <a href="https://sequelize.org/v6/">here</a>.</h5>
   </div>
 </main>
-
-<br>
 
 <footer>
   <%- include('../partials/footer'); %>
